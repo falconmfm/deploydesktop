@@ -1,0 +1,19 @@
+---
+- hosts: localhost
+  become: true
+  roles:
+    - oracle-java
+    - ansible-maven
+    - ansible-role-jenkins
+  vars:
+    oracle_java_set_as_default: yes
+    java_version: 8
+    java_subversion: 144
+    java_build: '01'
+    maven_major: 3 
+    maven_release: '3.5.0'
+    maven_home_parent_directory: '/import/software'
+    jenkins_hostname: 'localhost'
+    jenkins_admin_username: 'jenkins'
+    jenkins_admin_password: 'jenkins'
+    jenkins_home: '/home/mfalcon/ares/jenkins'
