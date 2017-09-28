@@ -1,0 +1,9 @@
+[submodule "ansible-maven"]
+    path = ansible-maven
+    url = https://github.com/tecris/ansible-maven.git
+[submodule "ansible-role-jenkins"]
+    path = ansible-role-jenkins
+    url = https://github.com/geerlingguy/ansible-role-jenkins.git
+[submodule "oracle-java"]
+    path = oracle-java
+    url = https://github.com/ansiblebit/oracle-java.git
